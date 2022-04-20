@@ -6,8 +6,10 @@ function showTime() {
     let minutes = date.getMinutes();
     let seconds = date.getSeconds();
     
+
     if(hours == 0){
         hours = 24;
+        
     }
 
     if (hours > 24) {
